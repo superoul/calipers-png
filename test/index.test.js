@@ -23,7 +23,7 @@ describe('png', function () {
 
   describe('measure', function () {
 
-    var fixtures = path.resolve(__dirname, '../test/fixtures/png');
+    var fixtures = path.resolve(__dirname, 'fixtures/png');
     var files = fs.readdirSync(fixtures);
 
     files.forEach(function (file) {
